@@ -74,17 +74,11 @@
     }
     
     .imaPress {
-        display: inline-block;
-        height: 350px;
-        width: 450px;
-        padding: 20px;
+      @extend %estiloimg;
     }
     
     .imaPress2 {
-        display: inline-block;
-        height: 350px;
-        width: 400px;
-        padding: 20px;
+        @extend %estiloimg;
     }
 }
 

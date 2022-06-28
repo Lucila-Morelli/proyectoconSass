@@ -1,6 +1,6 @@
 #index {
     .tituloGrande {
-        @extend %estiloTituloI;
+        @extend %estiloTituloI
        
     }
     
@@ -10,7 +10,9 @@
     }
     
     .tituloIndex {
-        @extend %estiloTituloI;
+        font-size: 25px;
+        margin: 25px;
+        color: rgb(185, 22, 109);
     }
     
     .parrafoIndex {
