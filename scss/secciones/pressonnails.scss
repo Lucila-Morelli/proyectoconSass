@@ -12,10 +12,8 @@
         font-size: 40px;
         margin-top: 10px;
         margin-left: 35px;
-
-    
     }
-    
+
     .tituloForm {
         display: inline-block;
         color: rgb(151, 9, 68);
@@ -26,7 +24,8 @@
     .parrafoPress {
         font-size: 20px;
         margin-left: 35px;
-        
+       @include estiloPress();
+    
     }
     
     .spanP {

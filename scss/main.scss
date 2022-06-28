@@ -3,7 +3,10 @@
     padding: 0;
 }
 
+
 @import './secciones/variables/tipografía';
+
+@import './secciones/variables/extend';
 
 @import './secciones/index.scss';
 
@@ -15,10 +18,3 @@
 
 @import './secciones/footer.scss';
 
-%estiloPGrande{
-      display: flex;
-        justify-content: center;
-        color: rgb(11, 10, 11);
-        font-size: 35px;
-        font-family: $typoParagraph;
-}

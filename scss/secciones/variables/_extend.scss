@@ -20,3 +20,9 @@
     width: 400px;
     padding: 20px;
 }
+
+// mixin
+
+@mixin estiloPress {
+    background-color: rgb(201, 232, 232);
+}
