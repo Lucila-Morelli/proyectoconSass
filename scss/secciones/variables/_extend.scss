@@ -1,0 +1,15 @@
+%estiloPGrande{
+    display: flex;
+      justify-content: center;
+      color: rgb(11, 10, 11);
+      font-size: 35px;
+      font-family: $typoParagraph;
+}
+
+%estiloTituloI {
+    display: flex;
+    justify-content: center;
+    color: rgb(158, 23, 90);
+    font-size: 50px;
+    font-family:$typoTitle ;
+}

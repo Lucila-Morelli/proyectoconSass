@@ -6,9 +6,15 @@
         margin: 30px
     }
     
-   h1 ul li {
-    font-size: 15px;
-   }
+    .tituloPress {
+        display: inline-block;
+        color: rgb(25, 19, 23);
+        font-size: 40px;
+        margin-top: 10px;
+        margin-left: 35px;
+
+    
+    }
     
     .tituloForm {
         display: inline-block;
@@ -18,8 +24,9 @@
     }
     
     .parrafoPress {
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 35px;
+        
     }
     
     .spanP {

@@ -17,3 +17,18 @@
     }
     
 }
+
+/* KEYFRAMES */
+@keyframes color {
+    0% {
+        background-color: rgb(166, 242, 242);
+    }
+
+    50% {
+        background-color: bisque;
+    }
+
+    100% {
+        background-color: dimgrey;
+    }
+}
