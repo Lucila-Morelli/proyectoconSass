@@ -1,0 +1,245 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+#index .tituloGrande {
+  display: flex;
+  justify-content: center;
+  color: #9e175a;
+  font-size: 50px; }
+
+#index .parrafoGrande {
+  display: flex;
+  justify-content: center;
+  color: #0b0a0b;
+  font-size: 35px; }
+
+#index .tituloIndex {
+  font-size: 25px;
+  margin: 25px;
+  color: #b9166d; }
+
+#index .parrafoIndex {
+  padding: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: #0b0b0b; }
+
+#index .article {
+  display: inline-block;
+  background-color: #b8b4ae;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 100%; }
+
+#index .letraNegra {
+  color: black;
+  background-color: #96155a;
+  font-size: 20px;
+  font-weight: bold; }
+
+@media (max-width: 1024px) {
+  .parrafoGrande {
+    color: #100d0f;
+    font-size: 25px;
+    font-family: sans-serifs;
+    margin-left: 25px; } }
+
+#pressonnails form {
+  width: 500px;
+  background-color: #bfa3b1;
+  padding: 25px;
+  margin: 30px; }
+
+#pressonnails .tituloPress {
+  display: inline-block;
+  color: #191317;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 35px; }
+
+#pressonnails .tituloForm {
+  display: inline-block;
+  color: #970944;
+  font-size: 30px;
+  margin-left: 25px; }
+
+#pressonnails .parrafoPress {
+  font-size: 30px;
+  margin-left: 35px; }
+
+#pressonnails .spanP {
+  color: black;
+  background-color: #c0586d;
+  font-size: 20px;
+  font-weight: bold; }
+
+#pressonnails .pPress {
+  display: inline-block;
+  background-color: deeppink;
+  font-size: 25px;
+  margin-left: 30px;
+  border: solid 15px black; }
+
+#pressonnails input[type="text"],
+#pressonnails input[type="email"],
+#pressonnails input[type="number"] {
+  border: 3px solid black;
+  width: 400px;
+  padding: 10px;
+  display: block; }
+
+#pressonnails form input[type="submit"] {
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400; }
+
+#pressonnails form input:focus {
+  width: 450px; }
+
+#pressonnails form input[type="submit"]:focus {
+  width: 120px;
+  color: black;
+  border: solid 4px white;
+  background-color: #a9227a; }
+
+#pressonnails .imaPress {
+  display: inline-block;
+  height: 350px;
+  width: 450px;
+  padding: 20px; }
+
+#pressonnails .imaPress2 {
+  display: inline-block;
+  height: 350px;
+  width: 400px;
+  padding: 20px; }
+
+@media (max-width: 1024px) {
+  form {
+    width: 250px;
+    background-color: #df8fba;
+    padding: 25px;
+    margin: 0 auto; }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    border: 3px solid black;
+    width: 250px;
+    padding: 10px;
+    display: block; }
+  .imaPress {
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    padding: 20px; } }
+
+#promociones .tituloDescuento {
+  margin-left: 350px;
+  padding: 15px;
+  font-size: 60px;
+  margin-bottom: 40px; }
+
+#promociones .container2 {
+  display: grid;
+  grid-template-areas: "descuentoCejas descuentoMasajes descuentoPestañas descuentoUñas" "dosXuno dosXuno tarjetaRegalo tarjetaRegalo" ". MetodoPago MetodoPago ."; }
+
+#promociones .descuentoCejas {
+  border: 3px solid black;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-align: center; }
+
+#promociones .descuentoMasajes {
+  grid-area: descuentoMasajes;
+  border: 3px solid black;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-align: center; }
+
+#promociones .descuentoPestañas {
+  grid-area: descuentoPestañas;
+  border: 3px solid black;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-align: center; }
+
+#promociones .descuentoUñas {
+  grid-area: descuentoUñas;
+  border: 3px solid black;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  text-align: center; }
+
+#promociones .dosXuno {
+  grid-area: dosXuno;
+  padding: 6px;
+  border: 3px solid black;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 20px; }
+
+#promociones .tarjetaRegalo {
+  grid-area: tarjetaRegalo;
+  padding: 8px;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 13px;
+  margin-bottom: 15px; }
+
+#promociones .MetodoPago {
+  grid-area: MetodoPago;
+  background-color: #6c686a;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 55%;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  #promociones .MetodoPago ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    color: white; }
+
+@media (max-width: 1024px) {
+  .tituloDescuento {
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 40px; }
+  .container2 {
+    display: flex;
+    flex-direction: column; } }
+
+header {
+  background-color: #9c4263; }
+
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  color: white; }
+
+ul li {
+  font-size: 40px;
+  margin: 40px; }
+
+.footer {
+  color: #171616;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  animation-name: color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin-top: 10px; }
+  .footer ol li {
+    color: #0b0b0b;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px 10px 15px 15px;
+    font-size: large; }

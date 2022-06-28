@@ -1,0 +1,53 @@
+#index {
+    .tituloGrande {
+        display: flex;
+        justify-content: center;
+        color: rgb(158, 23, 90);
+        font-size: 50px;
+    }
+    
+    .parrafoGrande {
+        display: flex;
+        justify-content: center;
+        color: rgb(11, 10, 11);
+        font-size: 35px;
+    }
+    
+    .tituloIndex {
+        font-size: 25px;
+        margin: 25px;
+        color: rgb(185, 22, 109);
+    }
+    
+    .parrafoIndex {
+        padding: 10px;
+        margin-left: 15px;
+        font-size: 20px;
+        color: rgb(11, 11, 11);
+    }
+    
+    .article {
+        display: inline-block;
+        background-color: rgb(184, 180, 174);
+        margin: 50px;
+        padding: 15px;
+        border-radius: 100%;
+    }
+    .letraNegra {
+        color: black;
+        background-color: rgb(150, 21, 90);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}
+
+@media (max-width:1024px) {
+
+    .parrafoGrande {
+        color: rgb(16, 13, 15);
+        font-size: 25px;
+        font-family: sans-serifs;
+        margin-left: 25px;
+    }
+}
