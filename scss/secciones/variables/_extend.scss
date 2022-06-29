@@ -23,6 +23,7 @@
 
 // mixin
 
-@mixin estiloPress {
-    background-color: rgb(201, 232, 232);
+@mixin colorP($colorSecundario,$colorNav) {
+background-color:$colorSecundario ;
+color: $colorNav;
 }

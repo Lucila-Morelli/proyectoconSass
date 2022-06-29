@@ -48,13 +48,6 @@
   font-size: 20px;
   font-weight: bold; }
 
-@media (max-width: 1024px) {
-  .parrafoGrande {
-    color: #100d0f;
-    font-size: 25px;
-    font-family: sans-serifs;
-    margin-left: 25px; } }
-
 #pressonnails form {
   width: 500px;
   background-color: #bfa3b1;
@@ -77,7 +70,8 @@
 #pressonnails .parrafoPress {
   font-size: 20px;
   margin-left: 35px;
-  background-color: #c9e8e8; }
+  background-color: #fbe7ee;
+  color: #9c4263; }
 
 #pressonnails .spanP {
   color: black;
@@ -118,22 +112,22 @@
   background-color: #a9227a; }
 
 @media (max-width: 1024px) {
-  form {
-    width: 250px;
+  #pressonnails form {
+    width: 350px;
     background-color: #df8fba;
     padding: 25px;
     margin: 0 auto; }
-  input[type="text"],
-  input[type="email"],
-  input[type="number"] {
+  #pressonnails input[type="text"],
+  #pressonnails input[type="email"],
+  #pressonnails input[type="number"] {
     border: 3px solid black;
     width: 250px;
     padding: 10px;
     display: block; }
-  .imaPress {
+  #pressonnails .imaPress {
     display: inline-block;
     height: 350px;
-    width: 350px;
+    width: 400px;
     padding: 20px; } }
 
 #promociones .tituloDescuento {
@@ -204,15 +198,14 @@
     text-align: center;
     font-size: 25px;
     color: white; }
-
-@media (max-width: 1024px) {
-  .tituloDescuento {
-    margin-left: 30px;
-    font-size: 40px;
-    margin-bottom: 40px; }
-  .container2 {
-    display: flex;
-    flex-direction: column; } }
+  @media (max-width: 1024px) {
+    #promociones .MetodoPago .tituloDescuento {
+      margin-left: 30px;
+      font-size: 40px;
+      margin-bottom: 40px; }
+    #promociones .MetodoPago .container2 {
+      display: flex;
+      flex-direction: column; } }
 
 header {
   background-color: #9c4263; }
@@ -250,3 +243,37 @@ ul li {
     background-color: bisque; }
   100% {
     background-color: dimgrey; } }
+
+@media (max-width: 1024px) {
+  /* INDEX */
+  .parrafoGrande {
+    color: #100d0f;
+    font-size: 25px;
+    font-family: sans-serifs;
+    margin-left: 25px; }
+  /* DESCUENTO */
+  .tituloDescuento {
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 40px; }
+  .container2 {
+    display: flex;
+    flex-direction: column; }
+  /* PRESS ON NAILS */
+  form {
+    width: 350px;
+    background-color: #df8fba;
+    padding: 25px;
+    margin: 0 auto; }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    border: 3px solid black;
+    width: 250px;
+    padding: 10px;
+    display: block; }
+  .imaPress {
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    padding: 20px; } }

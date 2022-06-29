@@ -24,7 +24,7 @@
     .parrafoPress {
         font-size: 20px;
         margin-left: 35px;
-       @include estiloPress();
+    @include colorP($colorSecundario,$colorNav);
     
     }
     
@@ -79,30 +79,30 @@
     .imaPress2 {
         @extend %estiloimg;
     }
-}
 
-@media (max-width:1024px) {
-
-    form {
-        width: 250px;
-        background-color: rgb(223, 143, 186);
-        padding: 25px;
-        margin: 0 auto
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="number"] {
-        border: 3px solid black;
-        width: 250px;
-        padding: 10px;
-        display: block;
-    }
-
-    .imaPress {
-        display: inline-block;
-        height: 350px;
-        width: 350px;
-        padding: 20px;
+    @media (max-width:1024px) {
+    
+        form {
+            width: 350px;
+            background-color: rgb(223, 143, 186);
+            padding: 25px;
+            margin: 0 auto
+        }
+    
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            border: 3px solid black;
+            width: 250px;
+            padding: 10px;
+            display: block;
+        }
+    
+        .imaPress {
+            display: inline-block;
+            height: 350px;
+            width: 400px;
+            padding: 20px;
+        }
     }
 }

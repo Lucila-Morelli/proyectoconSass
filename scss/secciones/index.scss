@@ -1,12 +1,10 @@
 #index {
     .tituloGrande {
-        @extend %estiloTituloI
-       
+        @extend %estiloTituloI;
     }
     
     .parrafoGrande {
-        @extend %estiloPGrande;
-        
+        @extend %estiloPGrande; 
     }
     
     .tituloIndex {
@@ -29,8 +27,8 @@
         margin: 50px;
         padding: 15px;
         border-radius: 100%;
-    
     }
+
     .letraNegra {
         color: black;
         background-color: rgb(150, 21, 90);
@@ -40,12 +38,3 @@
     
 }
 
-@media (max-width:1024px) {
-
-    .parrafoGrande {
-        color: rgb(16, 13, 15);
-        font-size: 25px;
-        font-family: sans-serifs;
-        margin-left: 25px;
-    }
-}
