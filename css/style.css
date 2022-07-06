@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -138,7 +137,9 @@
 
 #promociones .container2 {
   display: grid;
-  grid-template-areas: "descuentoCejas descuentoMasajes descuentoPestañas descuentoUñas" "dosXuno dosXuno tarjetaRegalo tarjetaRegalo" ". MetodoPago MetodoPago ."; }
+  grid-template-areas: "descuentoCejas descuentoMasajes descuentoPestañas descuentoUñas"
+ "dosXuno dosXuno tarjetaRegalo tarjetaRegalo"
+ ". MetodoPago MetodoPago ."; }
 
 #promociones .descuentoCejas {
   border: 3px solid black;

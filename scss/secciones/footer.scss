@@ -1,34 +1,45 @@
-
 .footer {
-    color: rgb(23, 22, 22);
+    color: #171616;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    animation-name: color;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-name: color;
+            animation-name: color;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
     margin-top: 10px;
-    ol li {
-        color: rgb(11, 11, 11);
-        font-family: Arial, Helvetica, sans-serif;
-        display: inline-block;
-        margin: 10px 10px 15px 15px;
-        font-size: large;
-    }
-    
-}
-
-/* KEYFRAMES */
-@keyframes color {
+  }
+  
+  .footer ol li {
+    color: #0b0b0b;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px 10px 15px 15px;
+    font-size: large;
+  }
+  
+  /* KEYFRAMES */
+  @-webkit-keyframes color {
     0% {
-        background-color: rgb(166, 242, 242);
+      background-color: #a6f2f2;
     }
-
     50% {
-        background-color: bisque;
+      background-color: bisque;
     }
-
     100% {
-        background-color: dimgrey;
+      background-color: dimgrey;
     }
-}
+  }
+  @keyframes color {
+    0% {
+      background-color: #a6f2f2;
+    }
+    50% {
+      background-color: bisque;
+    }
+    100% {
+      background-color: dimgrey;
+    }
+  }

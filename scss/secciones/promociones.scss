@@ -1,99 +1,55 @@
-#promociones{
-    .tituloDescuento {
-        margin-left: 350px;
-        padding: 15px;
-        font-size: 60px;
-        margin-bottom: 40px;
-    }
-    
-    .container2 {
-        display: grid;
-        grid-template-areas:
-            "descuentoCejas descuentoMasajes descuentoPestañas descuentoUñas"
-            "dosXuno dosXuno tarjetaRegalo tarjetaRegalo"
-            ". MetodoPago MetodoPago .";
-    }
-    
-    .descuentoCejas {
-        border: 3px solid black;
-        margin-left: 20px;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        text-align: center;
-    }
-    
-    .descuentoMasajes {
-        grid-area: descuentoMasajes;
-        border: 3px solid black;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        text-align: center;
-    }
-    
-    .descuentoPestañas {
-        grid-area: descuentoPestañas;
-        border: 3px solid black;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        text-align: center;
-    }
-    
-    .descuentoUñas {
-        grid-area: descuentoUñas;
-        border: 3px solid black;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        padding: 10px;
-        text-align: center;
-    }
-    
-    .dosXuno {
-        grid-area: dosXuno;
-        padding: 6px;
-        border: 3px solid black;
-        text-align: center;
-        margin-bottom: 15px;
-        margin-left: 20px;
-    }
-    
-    .tarjetaRegalo {
-        grid-area: tarjetaRegalo;
-        padding: 8px;
-        border: 3px solid black;
-        text-align: center;
-        margin-left: 13px;
-        margin-bottom: 15px;
-    }
-    
-    .MetodoPago {
-        grid-area: MetodoPago;
-        background-color: rgb(108, 104, 106);
-        text-align: center;
-        font-size: 40px;
-        border-radius: 55%;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    
-        ul li {
-            list-style: none;
-            text-align: center;
-            font-size: 25px;
-            color: white;
-        }
-
-    @media (max-width:1024px) {
-
-
-        .tituloDescuento {
-            margin-left: 30px;
-            font-size: 40px;
-            margin-bottom: 40px;
-        }
-    
-        .container2 {
-            display: flex;
-            flex-direction: column;
-        }  
+*{
+  margin: 0;
+  padding: 0;
+  
 }
 
-    }   }   
+
+.container {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 3px solid black;
+  background-color: lightcoral;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkblue;
+  text-align: center;
+}
+
+ul li {
+ font-size: 20px;
+ font-family: monospace;
+ font-weight: bold;
+ text-align: center;
+list-style: none;
+}
+
+.primeraLista {
+  color: white;
+
+}
+
+.segundaLista {
+  color: red;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  }
+
+h5 {
+  text-align: end;
+}
+
+h4 {
+  text-align: center;
+}
+
+  
