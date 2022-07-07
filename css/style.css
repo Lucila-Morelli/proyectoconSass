@@ -22,6 +22,14 @@
   width: 400px;
   padding: 20px; }
 
+#index .imaIndex {
+  width: 20px; }
+
+#index .tituloGrande {
+  margin: 6px;
+  text-align: center;
+  color: black; }
+
 #index .tituloIndex {
   font-size: 25px;
   margin: 25px;
@@ -64,7 +72,8 @@
   display: inline-block;
   color: #970944;
   font-size: 30px;
-  margin-left: 25px; }
+  margin-left: 25px;
+  font-family: monospace; }
 
 #pressonnails .parrafoPress {
   font-size: 20px;
@@ -110,103 +119,38 @@
   border: solid 4px white;
   background-color: #a9227a; }
 
-@media (max-width: 1024px) {
-  #pressonnails form {
-    width: 350px;
-    background-color: #df8fba;
-    padding: 25px;
-    margin: 0 auto; }
-  #pressonnails input[type="text"],
-  #pressonnails input[type="email"],
-  #pressonnails input[type="number"] {
-    border: 3px solid black;
-    width: 250px;
-    padding: 10px;
-    display: block; }
-  #pressonnails .imaPress {
-    display: inline-block;
-    height: 350px;
-    width: 400px;
-    padding: 20px; } }
+#promociones .container {
+  display: grid; }
 
-#promociones .tituloDescuento {
-  margin-left: 350px;
-  padding: 15px;
-  font-size: 60px;
-  margin-bottom: 40px; }
-
-#promociones .container2 {
-  display: grid;
-  grid-template-areas: "descuentoCejas descuentoMasajes descuentoPestañas descuentoUñas"
- "dosXuno dosXuno tarjetaRegalo tarjetaRegalo"
- ". MetodoPago MetodoPago ."; }
-
-#promociones .descuentoCejas {
-  border: 3px solid black;
-  margin-left: 20px;
-  margin-bottom: 15px;
-  margin-right: 15px;
+#promociones h1 {
+  color: #1b0a15;
+  margin: 6px;
   text-align: center; }
 
-#promociones .descuentoMasajes {
-  grid-area: descuentoMasajes;
-  border: 3px solid black;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  text-align: center; }
-
-#promociones .descuentoPestañas {
-  grid-area: descuentoPestañas;
-  border: 3px solid black;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  text-align: center; }
-
-#promociones .descuentoUñas {
-  grid-area: descuentoUñas;
-  border: 3px solid black;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  padding: 10px;
-  text-align: center; }
-
-#promociones .dosXuno {
-  grid-area: dosXuno;
-  padding: 6px;
-  border: 3px solid black;
+#promociones ul li {
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 15px;
-  margin-left: 20px; }
+  list-style: none; }
 
-#promociones .tarjetaRegalo {
-  grid-area: tarjetaRegalo;
-  padding: 8px;
-  border: 3px solid black;
-  text-align: center;
-  margin-left: 13px;
-  margin-bottom: 15px; }
+#promociones .segundaLista {
+  color: #5a0b4b; }
 
-#promociones .MetodoPago {
-  grid-area: MetodoPago;
+#promociones h2 {
+  color: black;
+  text-align: center; }
+
+#promociones .metodoPago {
   background-color: #6c686a;
   text-align: center;
   font-size: 40px;
-  border-radius: 55%;
+  border-radius: 80%;
   margin-bottom: 30px;
   margin-top: 30px; }
-  #promociones .MetodoPago ul li {
-    list-style: none;
-    text-align: center;
-    font-size: 25px;
-    color: white; }
-  @media (max-width: 1024px) {
-    #promociones .MetodoPago .tituloDescuento {
-      margin-left: 30px;
-      font-size: 40px;
-      margin-bottom: 40px; }
-    #promociones .MetodoPago .container2 {
-      display: flex;
-      flex-direction: column; } }
+  #promociones .metodoPago h3 {
+    text-align: center; }
+  #promociones .metodoPago h4 {
+    text-align: end; }
 
 header {
   background-color: #9c4263; }
@@ -225,25 +169,40 @@ ul li {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+  -webkit-animation-name: color;
   animation-name: color;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
-  animation-iteration-count: infinite;
-  margin-top: 10px; }
-  .footer ol li {
-    color: #0b0b0b;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    margin: 10px 10px 15px 15px;
-    font-size: large; }
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+.footer ol li {
+  color: #0b0b0b;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin: 10px 10px 15px 15px;
+  font-size: large; }
 
 /* KEYFRAMES */
-@keyframes color {
+@-webkit-keyframes color {
   0% {
-    background-color: #a6f2f2; }
+    background-color: #89286c; }
   50% {
     background-color: bisque; }
   100% {
     background-color: dimgrey; } }
+
+@keyframes color {
+  0% {
+    background-color: #9c4263; }
+  50% {
+    background-color: bisque; }
+  100% {
+    background-color: dimgrey; } }
+
+.tiContacto {
+  margin: 6px;
+  text-align: center; }
 
 @media (max-width: 1024px) {
   /* INDEX */
@@ -278,3 +237,6 @@ ul li {
     height: 350px;
     width: 400px;
     padding: 20px; } }
+
+main {
+  background-color: #e7e2e7; }

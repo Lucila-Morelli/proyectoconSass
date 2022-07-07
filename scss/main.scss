@@ -10,15 +10,18 @@
 
 @import './secciones/variables/extend';
 
-@import '../index.html';
+@import './secciones/index.scss';
 
-@import '../pages/pressonnails.html';
+@import './secciones/pressonnails.scss';
 
-@import '../pages/promociones.html';
+@import './secciones/promociones.scss';
 
 @import './secciones/header.scss';
 
 @import './secciones/footer.scss';
 
+@import './secciones/contacto.scss';
+
 @import './secciones/media.scss';
 
+@import './secciones/mainfon.scss';

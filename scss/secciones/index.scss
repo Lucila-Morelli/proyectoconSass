@@ -1,6 +1,13 @@
 #index {
+    .imaIndex {
+      width: 20px;
+
+    }
     .tituloGrande {
         @extend %estiloTituloI;
+        margin: 6px;
+    text-align: center;
+    color: black;
     }
     
     .parrafoGrande {
