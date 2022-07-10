@@ -1,40 +1,39 @@
-#index {
-    .imaIndex {
-      width: 20px;
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    }
+#index {
+
     .tituloGrande {
         @extend %estiloTituloI;
         margin: 6px;
-    text-align: center;
-    color: black;
+        text-align: center;
+      
     }
-    
+
     .parrafoGrande {
-        @extend %estiloPGrande; 
+        @extend %estiloPGrande;
     }
-    
+
     .tituloIndex {
         font-size: 25px;
-        margin: 25px;
+        margin-top: 25px;
         color: rgb(185, 22, 109);
+        text-align: center;
     }
-    
+
     .parrafoIndex {
         padding: 10px;
-        margin-left: 15px;
         font-size: 20px;
         color: rgb(11, 11, 11);
-        font-family:$typoParagraph ;
+        font-family: $typoParagraph ;
+        text-align: center;
+        margin-top: 50px;
+
     }
-    
-    .article {
-        display: inline-block;
-        background-color: rgb(184, 180, 174);
-        margin: 50px;
-        padding: 15px;
-        border-radius: 100%;
-    }
+
+
 
     .letraNegra {
         color: black;
@@ -42,6 +41,10 @@
         font-size: 20px;
         font-weight: bold;
     }
-    
-}
 
+    .d-block {
+        height: 560px;
+        padding: 10px;
+    }
+
+}

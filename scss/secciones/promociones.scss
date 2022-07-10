@@ -1,26 +1,26 @@
 #promociones{
 
   .container {
-    display: grid; 
- 
-  
+    display: grid;
   }
   h1 {
    
-    color: rgb(27, 10, 21);
-    margin: 6px;
+    border: 5px solid black;
+    background-color: coral;
+    color: rgb(255, 255, 255);
+    margin: 20px;
     text-align: center;
   }
   
-  ul li {
+ 
+  li {
    font-size: 20px;
    font-weight: bold;
    text-align: center;
   list-style: none;
+  color: darkred;
+  
   }
-  
-  
-  
   .segundaLista {
     color: rgb(90, 11, 75);
   }
@@ -32,12 +32,14 @@
     }
   
     .metodoPago {
-      background-color: rgb(108, 104, 106);
+      background-color: rgb(173, 173, 173);
       text-align: center;
       font-size: 40px;
       border-radius: 80%;
       margin-bottom: 30px;
       margin-top: 30px;
+      font-weight: bold;
+      color: black;
   
   h3 {
     text-align: center;
@@ -45,6 +47,7 @@
   
   h4 {
     text-align: end;
+   
   
   }
 }

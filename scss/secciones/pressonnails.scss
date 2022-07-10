@@ -1,58 +1,79 @@
-#pressonnails{
-    form {
-        width: 500px;
-        background-color: rgb(191, 163, 177);
-        padding: 25px;
-        margin: 30px
-    }
+#pressonnails {
     
+    .accordion {
+        margin: 20px;
+        border: 3px solid rgb(183, 183, 183);
+
+        button {
+            font-weight: bold;
+            color: rgb(183, 49, 0);
+        }
+    }
+    .form {
+
+
+        width: 400px;
+        border: 3px solid black;
+        margin-left: 50px;
+        padding: 40px;
+        
+
+
+    }
+
     .tituloPress {
-        display: inline-block;
+
         color: rgb(25, 19, 23);
         font-size: 40px;
         margin-top: 10px;
-        margin-left: 35px;
+        text-align: center;
+
     }
 
     .tituloForm {
         display: inline-block;
         color: rgb(151, 9, 68);
         font-size: 30px;
-        margin-left: 25px;
+
         font-family: $typoTitle;
     }
-    
+
     .parrafoPress {
         font-size: 20px;
-        margin-left: 35px;
-    @include colorP($colorSecundario,$colorNav);
-    
+        text-align: center;
+        margin-left: 25px;
+        @include colorP($colorSecundario, $colorNav);
+
     }
-    
+
     .spanP {
         color: black;
         background-color: rgb(192, 88, 109);
         font-size: 20px;
         font-weight: bold;
+        text-align: center;
     }
-    
+
     .pPress {
         display: inline-block;
-        background-color: deeppink;
+        background-color: rgba(255, 14, 199, 0.105);
         font-size: 25px;
-        margin-left: 30px;
-        border: solid 15px black;
+        margin-left: 10px;
+        border: solid 3px black;
+        padding: 3px;
+        
     }
-    
+
     input[type="text"],
     input[type="email"],
     input[type="number"] {
         border: 3px solid black;
-        width: 400px;
+        width: 300px;
         padding: 10px;
         display: block;
+        margin-left: 20px;
     }
-    
+
     form input[type="submit"] {
         background-color: black;
         padding: 10px;
@@ -61,23 +82,40 @@
         font-size: 18px;
         font-weight: 400;
     }
-    
+
     form input:focus {
         width: 450px
     }
-    
+
     form input[type="submit"]:focus {
         width: 120px;
         color: black;
         border: solid 4px white;
         background-color: rgb(169, 34, 122);
     }
-    
+
     .imaPress {
-      @extend %estiloimg;
+        @extend %estiloimg;
+        
     }
-    
+
     .imaPress2 {
         @extend %estiloimg;
     }
+    h4 {
+        text-align: center;
+    }
+    .listaPress {
+        
+        color: rgb(0, 21, 4);
+        text-align: center;
+        list-style: none;
+        li{
+            font-size: 25px;
+        }
+    
+    
+    
+}
+
 }

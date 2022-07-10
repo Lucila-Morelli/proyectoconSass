@@ -1,4 +1,21 @@
-.tiContacto {
-    margin: 6px;
-    text-align: center
+#contacto {
+    label {
+        color: black;
+        font-weight: bolder;
+        font-family: $typoTitle;
+    }
+    tiContacto {
+        margin: 6px;
+        text-align: center
+    }
+    button:hover {
+        color: black;
+        background-color: coral;
+    }
+   textarea{ 
+    border: 1px solid grey;
+   }
+    
 }
+
+

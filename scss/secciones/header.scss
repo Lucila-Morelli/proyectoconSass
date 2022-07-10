@@ -1,5 +1,6 @@
 header {
     background-color: #9c4263;
+    height: auto;
   }
   
   .nav-link {
@@ -12,4 +13,20 @@ header {
     font-size: 40px;
     margin: 40px;
   }
+
+.navbar-brand {
+  width: auto;
+  height: 70px;
+  border: 2px solid rgb(255, 254, 254);
+  border-radius: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+ color: coral;
+ background-color: white;
+ font-weight: bolder;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 

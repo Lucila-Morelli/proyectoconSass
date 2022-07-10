@@ -6,14 +6,14 @@
   display: flex;
   justify-content: center;
   color: #0b0a0b;
-  font-size: 35px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif; }
 
 #index .tituloGrande {
   display: flex;
   justify-content: center;
   color: #9e175a;
-  font-size: 50px;
+  font-size: 35px;
   font-family: monospace; }
 
 #pressonnails .imaPress, #pressonnails .imaPress2 {
@@ -22,32 +22,27 @@
   width: 400px;
   padding: 20px; }
 
-#index .imaIndex {
-  width: 20px; }
+* {
+  margin: 0;
+  padding: 0; }
 
 #index .tituloGrande {
   margin: 6px;
-  text-align: center;
-  color: black; }
+  text-align: center; }
 
 #index .tituloIndex {
   font-size: 25px;
-  margin: 25px;
-  color: #b9166d; }
+  margin-top: 25px;
+  color: #b9166d;
+  text-align: center; }
 
 #index .parrafoIndex {
   padding: 10px;
-  margin-left: 15px;
   font-size: 20px;
   color: #0b0b0b;
-  font-family: Arial, Helvetica, sans-serif; }
-
-#index .article {
-  display: inline-block;
-  background-color: #b8b4ae;
-  margin: 50px;
-  padding: 15px;
-  border-radius: 100%; }
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px; }
 
 #index .letraNegra {
   color: black;
@@ -55,52 +50,65 @@
   font-size: 20px;
   font-weight: bold; }
 
-#pressonnails form {
-  width: 500px;
-  background-color: #bfa3b1;
-  padding: 25px;
-  margin: 30px; }
+#index .d-block {
+  height: 560px;
+  padding: 10px; }
+
+#pressonnails .accordion {
+  margin: 20px;
+  border: 3px solid #b7b7b7; }
+  #pressonnails .accordion button {
+    font-weight: bold;
+    color: #b73100; }
+
+#pressonnails .form {
+  width: 400px;
+  border: 3px solid black;
+  margin-left: 50px;
+  padding: 40px; }
 
 #pressonnails .tituloPress {
-  display: inline-block;
   color: #191317;
   font-size: 40px;
   margin-top: 10px;
-  margin-left: 35px; }
+  text-align: center; }
 
 #pressonnails .tituloForm {
   display: inline-block;
   color: #970944;
   font-size: 30px;
-  margin-left: 25px;
   font-family: monospace; }
 
 #pressonnails .parrafoPress {
   font-size: 20px;
-  margin-left: 35px;
-  background-color: #fbe7ee;
+  text-align: center;
+  margin-left: 25px;
+  background-color: white;
   color: #9c4263; }
 
 #pressonnails .spanP {
   color: black;
   background-color: #c0586d;
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center; }
 
 #pressonnails .pPress {
   display: inline-block;
-  background-color: deeppink;
+  background-color: rgba(255, 14, 199, 0.105);
   font-size: 25px;
-  margin-left: 30px;
-  border: solid 15px black; }
+  margin-left: 10px;
+  border: solid 3px black;
+  padding: 3px; }
 
 #pressonnails input[type="text"],
 #pressonnails input[type="email"],
 #pressonnails input[type="number"] {
   border: 3px solid black;
-  width: 400px;
+  width: 300px;
   padding: 10px;
-  display: block; }
+  display: block;
+  margin-left: 20px; }
 
 #pressonnails form input[type="submit"] {
   background-color: black;
@@ -119,19 +127,32 @@
   border: solid 4px white;
   background-color: #a9227a; }
 
+#pressonnails h4 {
+  text-align: center; }
+
+#pressonnails .listaPress {
+  color: #001504;
+  text-align: center;
+  list-style: none; }
+  #pressonnails .listaPress li {
+    font-size: 25px; }
+
 #promociones .container {
   display: grid; }
 
 #promociones h1 {
-  color: #1b0a15;
-  margin: 6px;
+  border: 5px solid black;
+  background-color: coral;
+  color: white;
+  margin: 20px;
   text-align: center; }
 
-#promociones ul li {
+#promociones li {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  list-style: none; }
+  list-style: none;
+  color: darkred; }
 
 #promociones .segundaLista {
   color: #5a0b4b; }
@@ -141,19 +162,22 @@
   text-align: center; }
 
 #promociones .metodoPago {
-  background-color: #6c686a;
+  background-color: #adadad;
   text-align: center;
   font-size: 40px;
   border-radius: 80%;
   margin-bottom: 30px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-weight: bold;
+  color: black; }
   #promociones .metodoPago h3 {
     text-align: center; }
   #promociones .metodoPago h4 {
     text-align: end; }
 
 header {
-  background-color: #9c4263; }
+  background-color: #9c4263;
+  height: auto; }
 
 .nav-link {
   font-weight: 500;
@@ -164,11 +188,26 @@ ul li {
   font-size: 40px;
   margin: 40px; }
 
+.navbar-brand {
+  width: auto;
+  height: 70px;
+  border: 2px solid #fffefe;
+  border-radius: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: coral;
+  background-color: white;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
 .footer {
   color: #171616;
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+  height: auto;
   -webkit-animation-name: color;
   animation-name: color;
   -webkit-animation-duration: 5s;
@@ -190,7 +229,7 @@ ul li {
   50% {
     background-color: bisque; }
   100% {
-    background-color: dimgrey; } }
+    background-color: #89286c; } }
 
 @keyframes color {
   0% {
@@ -198,19 +237,31 @@ ul li {
   50% {
     background-color: bisque; }
   100% {
-    background-color: dimgrey; } }
+    background-color: #89286c; } }
 
-.tiContacto {
+#contacto label {
+  color: black;
+  font-weight: bolder;
+  font-family: monospace; }
+
+#contacto tiContacto {
   margin: 6px;
   text-align: center; }
 
-@media (max-width: 1024px) {
+#contacto button:hover {
+  color: black;
+  background-color: coral; }
+
+#contacto textarea {
+  border: 1px solid grey; }
+
+@media (max-width: 560px) {
   /* INDEX */
   .parrafoGrande {
     color: #100d0f;
-    font-size: 25px;
+    font-size: 18px;
     font-family: sans-serifs;
-    margin-left: 25px; }
+    text-align: center; }
   /* DESCUENTO */
   .tituloDescuento {
     margin-left: 30px;
@@ -221,22 +272,32 @@ ul li {
     flex-direction: column; }
   /* PRESS ON NAILS */
   form {
-    width: 350px;
+    width: 250px;
     background-color: #df8fba;
-    padding: 25px;
-    margin: 0 auto; }
+    padding: 10px;
+    margin: 0; }
   input[type="text"],
   input[type="email"],
   input[type="number"] {
     border: 3px solid black;
-    width: 250px;
+    width: 150px;
     padding: 10px;
     display: block; }
   .imaPress {
     display: inline-block;
     height: 350px;
-    width: 400px;
-    padding: 20px; } }
+    width: 350px; } }
 
-main {
-  background-color: #e7e2e7; }
+.tituloGrande {
+  text-align: center; }
+
+.parrafoNosotras {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: monospace;
+  margin-bottom: 20px; }
+
+.carrusel img {
+  max-height: 900px;
+  margin-bottom: 10px; }
