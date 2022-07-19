@@ -3,7 +3,7 @@
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    height: auto;
+    height: 20vh;
     -webkit-animation-name: color;
             animation-name: color;
     -webkit-animation-duration: 5s;
@@ -11,16 +11,25 @@
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 
-      
+          
+ 
   }
-  
+ 
   .footer ol li {
     color: #0b0b0b;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: 10px 10px 15px 15px;
-    font-size: large;
-  }
+    font-size: 20px;
+    .logo {
+      width: 60px;
+      height: 60px;
+      
+    }
+ 
+   }
+  
   
   
   /* KEYFRAMES */
@@ -47,4 +56,4 @@
     }
   }
 
-  
+ 

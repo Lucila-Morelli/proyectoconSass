@@ -16,15 +16,13 @@
   font-size: 35px;
   font-family: monospace; }
 
-#pressonnails .imaPress, #pressonnails .imaPress2 {
-  display: inline-block;
-  height: 350px;
-  width: 350px;
-  padding: 20px; }
-
 * {
   margin: 0;
   padding: 0; }
+
+#index .img1 {
+  width: 100%;
+  height: 350px; }
 
 #index .tituloGrande {
   margin: 6px;
@@ -80,6 +78,20 @@
   font-weight: bold;
   text-align: center; }
 
+#pressonnails .containerGaleria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  #pressonnails .containerGaleria .imPress {
+    transition: all 300ms;
+    border-radius: 7%;
+    width: 400px;
+    height: 300px;
+    margin: 10px; }
+    #pressonnails .containerGaleria .imPress :hover {
+      transform: scale(1.1); }
+
 #pressonnails h4 {
   text-align: center; }
 
@@ -115,7 +127,7 @@
   text-align: center; }
 
 #promociones .metodoPago {
-  background-color: #adadad;
+  background-color: beige;
   text-align: center;
   font-size: 40px;
   margin-bottom: 30px;
@@ -159,7 +171,7 @@ ul li {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
-  height: auto;
+  height: 20vh;
   -webkit-animation-name: color;
   animation-name: color;
   -webkit-animation-duration: 5s;
@@ -170,9 +182,13 @@ ul li {
 .footer ol li {
   color: #0b0b0b;
   font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin: 10px 10px 15px 15px;
-  font-size: large; }
+  font-size: 20px; }
+  .footer ol li .logo {
+    width: 60px;
+    height: 60px; }
 
 /* KEYFRAMES */
 @-webkit-keyframes color {

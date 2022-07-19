@@ -37,16 +37,23 @@
         text-align: center;
     }
 
-
-    .imaPress {
-
-        @extend %estiloimg;
-        
+.containerGaleria {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+.imPress {
+    transition: all 300ms;
+    & :hover {
+        transform: scale(1.1);
     }
-
-    .imaPress2 {
-        @extend %estiloimg;
-    }
+    border-radius: 7%;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+}
+    
     h4 {
         text-align: center;
     }
