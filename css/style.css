@@ -118,7 +118,6 @@
   background-color: #adadad;
   text-align: center;
   font-size: 40px;
-  border-radius: 80%;
   margin-bottom: 30px;
   margin-top: 30px;
   font-weight: bold;
@@ -226,8 +225,7 @@ ul li {
   /* PRESS ON NAILS */
   .imaPress {
     display: inline-block;
-    height: 200px;
-    width: 250px; } }
+    width: 200px; } }
 
 .tituloGrande {
   text-align: center; }
