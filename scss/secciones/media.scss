@@ -47,5 +47,87 @@
     }
 }
 
+@media (max-width:1024px) {
+    /* INDEX */
+     .container {
+         display: grid;
+         grid-template-columns: 1fr;
+           
+     }
+ 
+     .h3 {
+         display: flex;
+         color: black;
+         font-size: large;
+         top: 5px;
+         left: 50px;
+         font-family: 'Spline Sans Mono', monospace
+     }
+ 
+     .header {
+       display: grid;
+         background-color: rgb(232, 202, 223);
+         padding: 8px;
+         background-image: linear-gradient(to right, rgb(177, 168, 176), rgb(52, 192, 185));
+     }
+ 
+     /* DESCUENTO */
+     .tituloDescuento {
+       margin-left: 30px;
+         font-size: 40px;
+         margin-bottom: 40px;
+     }
+ 
+     .container2 {
+       display: flex;
+    flex-direction: column;
+    
+     }
+     
+     /* SOBRE NOSOTRAS */
+     .estetica {
+         display: inline-block;
+         height: 750px;
+         width: 380px;
+         padding: 20px;
+         border-radius: 40%;
+     }
+     
+     /* PRESS ON NAILS */
+     form {
+         width: 350px;
+         background-color: rgb(223, 143, 186);
+         padding: 25px;
+         margin: 0 auto
+ }
+ input[type="text"],
+ input[type="email"],
+ input[type="number"] {
+     border: 3px solid black;
+     width: 250px;
+     padding: 10px;
+     display: block;
+ }
+ 
+ .imaPress {
+     display: inline-block;
+     height: 350px;
+     width: 400px;
+     padding: 20px;
+ }
+ 
+ /* CONTACTO */
+ .text {
+     width: 350px;
+     background-color: white;
+     padding: 8px;
+     margin-top: 15px;
+     margin-left: 30px;
+     margin-top: 5px;
+     border: solid 5px black;
+ }
+ 
+ }
+
 
 
