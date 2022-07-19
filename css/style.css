@@ -51,7 +51,6 @@
   font-weight: bold; }
 
 #index .d-block {
-  height: 560px;
   padding: 10px; }
 
 #pressonnails .accordion {
@@ -62,10 +61,10 @@
     color: #b73100; }
 
 #pressonnails .form {
-  width: 400px;
-  border: 3px solid black;
-  margin-left: 50px;
-  padding: 40px; }
+  width: 500px;
+  background-color: #bfa3b1;
+  padding: 25px;
+  margin: 30px; }
 
 #pressonnails .tituloPress {
   color: #191317;
@@ -272,7 +271,7 @@ ul li {
     flex-direction: column; }
   /* PRESS ON NAILS */
   form {
-    width: 250px;
+    width: 200px;
     background-color: #df8fba;
     padding: 10px;
     margin: 0; }
@@ -281,8 +280,7 @@ ul li {
   input[type="number"] {
     border: 3px solid black;
     width: 150px;
-    padding: 10px;
-    display: block; }
+    padding: 10px; }
   .imaPress {
     display: inline-block;
     height: 350px;
