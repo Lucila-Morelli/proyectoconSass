@@ -17,12 +17,12 @@
   
 h4 p div a {
    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    bottom: 0;
+    display: inline-block;
+    font-size:20px;
+    justify-items: center;
+    color: black;
+
+    
     img {
       width: 2.7rem;
     }
