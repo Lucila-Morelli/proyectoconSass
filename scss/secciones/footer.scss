@@ -15,16 +15,8 @@
  
   }
   
-  .container-footer {
-    background: rgb(250, 112, 112);
-    background: linear-gradient(
-      266deg,
-      rgba(250, 112, 112, 1) 0%,
-      rgba(255, 255, 255, 1) 72%,
-      rgba(249, 249, 255, 1) 100%
-    );
-    margin-top: 5rem;
-    width: 100%;
+  .footer ol li {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
