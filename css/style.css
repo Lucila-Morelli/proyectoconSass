@@ -61,7 +61,7 @@
     color: #b73100; }
 
 #pressonnails .form {
-  width: 500px;
+  width: 450px;
   background-color: #bfa3b1;
   padding: 25px;
   margin: 30px; }
@@ -271,16 +271,14 @@ ul li {
     flex-direction: column; }
   /* PRESS ON NAILS */
   form {
-    width: 200px;
+    width: 250px;
     background-color: #df8fba;
-    padding: 10px;
     margin: 0; }
   input[type="text"],
   input[type="email"],
   input[type="number"] {
     border: 3px solid black;
-    width: 150px;
-    padding: 10px; }
+    width: 150px; }
   .imaPress {
     display: inline-block;
     height: 350px;
