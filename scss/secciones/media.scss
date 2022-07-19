@@ -21,31 +21,4 @@
         flex-direction: column;
     }
 
-    /* PRESS ON NAILS */
-
-    form {
-        width: 250px;
-        background-color: rgb(223, 143, 186);
-        margin: 0;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="number"] {
-        border: 3px solid black;
-        width: 150px;
-       
-    
-    }
-
-    .imaPress {
-        display: inline-block;
-        height: 350px;
-        width: 350px;
-        
-        
-    }
 }
-
-
-
