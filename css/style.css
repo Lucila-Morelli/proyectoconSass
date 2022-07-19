@@ -169,11 +169,12 @@ ul li {
 
 h4 p div a {
   display: inline-block;
-  font-size: 20px;
+  font-size: 12px;
   justify-items: center;
   color: black; }
   h4 p div a img {
-    width: 2.7rem; }
+    width: 10px;
+    height: 10px; }
 
 /* KEYFRAMES */
 @-webkit-keyframes color {
