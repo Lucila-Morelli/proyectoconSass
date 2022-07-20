@@ -1,14 +1,11 @@
 @media (max-width:1024px) {
 
-    /* INDEX */
     .parrafoGrande {
         color: rgb(16, 13, 15);
         font-size: 18px;
         font-family: sans-serifs;
         text-align: center;
     }
-
-    /* DESCUENTO */
 
     .tituloDescuento {
         margin-left: 30px;
@@ -21,13 +18,9 @@
         flex-direction: column;
     }
 
-    /* PRESS ON NAILS */
-
-
     .imaPress {
         display: inline-block;
         width: 200px;
-        
         
     }
 }
