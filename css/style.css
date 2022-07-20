@@ -13,8 +13,9 @@
   display: flex;
   justify-content: center;
   color: #9e175a;
-  font-size: 35px;
-  font-family: monospace; }
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold; }
 
 * {
   margin: 0;
