@@ -6,13 +6,12 @@
 
         button {
             font-weight: bold;
-            color: rgb(183, 49, 0);
+            color: rgb(87, 10, 51);
         }
     }
     
 
     .tituloPress {
-
         color: rgb(25, 19, 23);
         font-size: 40px;
         margin-top: 10px;
@@ -27,7 +26,6 @@
         margin-left: 25px;
         font-family: $typoParagraph;
         @include colorP($colorSecundario, $colorNav);
-
     }
 
     .spanP {
@@ -60,7 +58,7 @@ justify-content: space-evenly;
         text-align: center;
     }
     .listaPress {
-        
+    
         color: rgb(0, 21, 4);
         text-align: center;
         list-style: none;

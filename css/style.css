@@ -52,7 +52,7 @@
   border: 3px solid #b7b7b7; }
   #pressonnails .accordion button {
     font-weight: bold;
-    color: #b73100; }
+    color: #570a33; }
 
 #pressonnails .tituloPress {
   color: #191317;
@@ -213,7 +213,7 @@ ul li {
   font-weight: bolder;
   font-family: monospace; }
 
-#contacto tiContacto {
+#contacto .tiContacto {
   margin: 6px;
   text-align: center; }
 
