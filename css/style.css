@@ -26,7 +26,11 @@
 
 #index .tituloGrande {
   margin: 6px;
-  text-align: center; }
+  text-align: center;
+  font-family: monospace; }
+
+#index .parrafoGrande {
+  font-weight: bold; }
 
 #index .tituloIndex {
   font-size: 25px;
@@ -39,17 +43,9 @@
   font-size: 20px;
   color: #0b0b0b;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   text-align: center;
   margin-top: 50px; }
-
-#index .letraNegra {
-  color: black;
-  background-color: #96155a;
-  font-size: 20px;
-  font-weight: bold; }
-
-#index .d-block {
-  padding: 10px; }
 
 #pressonnails .accordion {
   margin: 20px;
@@ -68,6 +64,7 @@
   font-size: 20px;
   text-align: center;
   margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   color: #9c4263; }
 
@@ -76,7 +73,8 @@
   background-color: #c0586d;
   font-size: 20px;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
 
 #pressonnails .containerGaleria {
   display: flex;
@@ -107,7 +105,7 @@
 
 #promociones h1 {
   border: 5px solid black;
-  background-color: coral;
+  background-color: #bd5085;
   color: white;
   margin: 20px;
   text-align: center; }
@@ -117,7 +115,8 @@
   font-weight: bold;
   text-align: center;
   list-style: none;
-  color: darkred; }
+  color: #400f2e;
+  font-family: Arial, Helvetica, sans-serif; }
 
 #promociones .segundaLista {
   color: #5a0b4b; }
@@ -133,11 +132,13 @@
   margin-bottom: 30px;
   margin-top: 30px;
   font-weight: bold;
-  color: black; }
+  color: black;
+  font-family: Arial, Helvetica, sans-serif; }
   #promociones .metodoPago h3 {
     text-align: center;
-    font-size: 25px;
-    color: coral; }
+    font-size: 40px;
+    font-weight: bold;
+    color: #7f2265; }
 
 header {
   background-color: #9c4263;
@@ -244,13 +245,15 @@ ul li {
     width: 200px; } }
 
 .tituloGrande {
-  text-align: center; }
+  text-align: center;
+  margin-top: 5px; }
 
 .parrafoNosotras {
   font-size: 20px;
   text-align: center;
   margin-top: 50px;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   margin-bottom: 20px; }
 
 .carrusel img {

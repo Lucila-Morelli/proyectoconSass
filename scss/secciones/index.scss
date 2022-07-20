@@ -13,11 +13,13 @@
         @extend %estiloTituloI;
         margin: 6px;
         text-align: center;
+        font-family:$typoTitle;
       
     }
 
     .parrafoGrande {
         @extend %estiloPGrande;
+        font-weight: bold;
     }
 
     .tituloIndex {
@@ -31,23 +33,11 @@
         padding: 10px;
         font-size: 20px;
         color: rgb(11, 11, 11);
-        font-family: $typoParagraph ;
+        font-family: $typoParagraph;
+        font-weight: bold;
         text-align: center;
         margin-top: 50px;
 
-    }
-
-
-
-    .letraNegra {
-        color: black;
-        background-color: rgb(150, 21, 90);
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .d-block {
-        padding: 10px;
     }
 
 }

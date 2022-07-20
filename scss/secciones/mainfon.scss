@@ -1,12 +1,14 @@
 .tituloGrande {
     text-align: center;
+    margin-top: 5px;
 }
 
 .parrafoNosotras {
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
-   font-family: monospace;
+   font-family: $typoParagraph;
+   font-weight: bold;
    margin-bottom: 20px;
 }
 
